@@ -32,6 +32,7 @@ header h1{
     border-radius: 15px;
     background-image: url(img/pattern.png);
     background-size: 100%;
+    color: transparent;
 }
 
 #card-flip{
@@ -66,10 +67,6 @@ header h1{
     display: none;
 }
 
-.hover-container div :hover{
-    display: block;
-}
-
 .hover-container div{
     float: left;
     margin: 1%;
@@ -87,15 +84,11 @@ header h1{
     margin-top: 90%;
 }
 
-.air{
-    background-image: url(img/noun_air_balloon_3134741.png);
-    background-size: 90%;
-    background-position: top;
-    background-repeat: no-repeat;
-    color: palevioletred;
-}
-
-.bycicle{
+.one:hover,.six:hover{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align:center;
+    padding-top: 150px;
     background-image: url(img/noun_Bicycle_3134821.png);
     background-size: 90%;
     background-position: top;
@@ -103,7 +96,11 @@ header h1{
     color: crimson;
 }
 
-.cruise{
+.two:hover,.ten:hover{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align:center;
+    padding-top: 150px;
     background-image: url(img/noun_Cruise_Ship_3134824.png);
     background-size: 90%;
     background-position: top;
@@ -111,7 +108,11 @@ header h1{
     color: cornflowerblue;
 }
 
-.sub{
+.three:hover,.nine:hover{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align:center;
+    padding-top: 150px;
     background-image: url(img/noun_Submarine_3134738.png);
     background-size: 90%;
     background-position: top;
@@ -119,7 +120,23 @@ header h1{
     color: seagreen;
 }
 
-.tram{
+.four:hover{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align:center;
+    padding-top: 150px;
+    background-image: url(img/noun_air_balloon_3134741.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: palevioletred;
+}
+
+.five:hover,.eleven:hover{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align:center;
+    padding-top: 150px;
     background-image: url(img/noun_Tram_3134750.png);
     background-size: 90%;
     background-position: top;
@@ -127,7 +144,11 @@ header h1{
     color: yellowgreen;
 }
 
-.tractor{
+.seven:hover,.eight:hover{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align:center;
+    padding-top: 150px;
     background-image: url(img/noun_Tractor_3134797.png);
     background-size: 90%;
     background-position: top;
