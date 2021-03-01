@@ -8,7 +8,7 @@ body{
     background-color: lightblue;
 }
 
-h1{ 
+header h1{ 
     font-size: 80px;
     font-family: 'Nerko One';
     color: white;
@@ -19,7 +19,7 @@ h1{
     margin: auto;
     width: 50%;
     height: 660px;
-    /* background-color: teal; */
+    position: relative;
 }
 
 .card{
@@ -47,16 +47,96 @@ h1{
     background-position: top;
     background-repeat: no-repeat;
 }
+
 #card-flip h3{
     font-family: 'Nerko One';
     font-size: 30px;
     color: palevioletred;
     text-align: center;
     margin-top: 90%;
+}
 
+.hover-container{
+    margin: auto;
+    width: 50%;
+    height: 660px;
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    display: none;
+}
+
+.hover-container div :hover{
+    display: block;
+}
+
+.hover-container div{
+    float: left;
+    margin: 1%;
+    background-color: white;
+    border: 2px solid lightgray;
+    width: calc(100% / 4 - 2%);
+    height: 200px;
+    border-radius: 15px;
+}
+
+.hover-container div h3{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90%;
+}
+
+.air{
+    background-image: url(img/noun_air_balloon_3134741.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: palevioletred;
+}
+
+.bycicle{
+    background-image: url(img/noun_Bicycle_3134821.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: crimson;
+}
+
+.cruise{
+    background-image: url(img/noun_Cruise_Ship_3134824.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: cornflowerblue;
+}
+
+.sub{
+    background-image: url(img/noun_Submarine_3134738.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: seagreen;
+}
+
+.tram{
+    background-image: url(img/noun_Tram_3134750.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: yellowgreen;
+}
+
+.tractor{
+    background-image: url(img/noun_Tractor_3134797.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: orange;
 }
 
 footer > h3{
     font-family: 'Nerko One';
     text-align: center;
 }
+
