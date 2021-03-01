@@ -47,14 +47,11 @@ header h1{
     background-size: 90%;
     background-position: top;
     background-repeat: no-repeat;
-}
-
-#card-flip h3{
     font-family: 'Nerko One';
     font-size: 30px;
     color: palevioletred;
     text-align: center;
-    margin-top: 90%;
+    padding-top: 150px;
 }
 
 .one:hover,.six:hover{
