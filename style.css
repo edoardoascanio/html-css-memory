@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{ 
+    font-size: 80px;
+    font-family: 'Nerko One';
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    height: 660px;
+    /* background-color: teal; */
+}
+
+.card{
+    float: left;
+    margin: 1%;
+    background-color: white;
+    border: 2px solid lightgray;
+    width: calc(100% / 4 - 2%);
+    height: 200px;
+    border-radius: 15px;
+    background-image: url(img/pattern.png);
+    background-size: 100%;
+}
+
+#card-flip{
+    float: left;
+    margin: 1%;
+    background-color: white;
+    border: 2px solid lightgray;
+    width: calc(100% / 4 - 2%);
+    height: 200px;
+    border-radius: 15px;
+    background-image: url(img/noun_air_balloon_3134741.png);
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#card-flip h3{
+    font-family: 'Nerko One';
+    font-size: 30px;
+    color: palevioletred;
+    text-align: center;
+    margin-top: 90%;
+
+}
+
+footer > h3{
+    font-family: 'Nerko One';
+    text-align: center;
+}
