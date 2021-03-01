@@ -48,7 +48,7 @@ header h1{
     background-position: top;
     background-repeat: no-repeat;
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     color: palevioletred;
     text-align: center;
     padding-top: 150px;
@@ -56,7 +56,7 @@ header h1{
 
 .one:hover,.six:hover{
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
     padding-top: 150px;
     background-image: url(img/noun_Bicycle_3134821.png);
@@ -68,7 +68,7 @@ header h1{
 
 .two:hover,.ten:hover{
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
     padding-top: 150px;
     background-image: url(img/noun_Cruise_Ship_3134824.png);
@@ -80,7 +80,7 @@ header h1{
 
 .three:hover,.nine:hover{
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
     padding-top: 150px;
     background-image: url(img/noun_Submarine_3134738.png);
@@ -92,7 +92,7 @@ header h1{
 
 .four:hover{
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
     padding-top: 150px;
     background-image: url(img/noun_air_balloon_3134741.png);
@@ -104,7 +104,7 @@ header h1{
 
 .five:hover,.eleven:hover{
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
     padding-top: 150px;
     background-image: url(img/noun_Tram_3134750.png);
@@ -116,7 +116,7 @@ header h1{
 
 .seven:hover,.eight:hover{
     font-family: 'Nerko One';
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
     padding-top: 150px;
     background-image: url(img/noun_Tractor_3134797.png);
