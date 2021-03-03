@@ -43,9 +43,22 @@ header h1{
     width: calc(100% / 4 - 2%);
     height: 200px;
     border-radius: 15px;
-    background-image: url(img/pattern.png);
+    background-image: url(img/noun_air_balloon_3134741.png);
     background-size: 100%;
-    font-size: 0.1px;
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+}    
+
+#card-flip h3{
+    font-family: 'Nerko One';
+    font-size: 25px;
+    text-align:center;
+    padding-top: 150px;
+    background-size: 90%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: palevioletred;
 }    
 
 .one:active,.six:active{
@@ -55,6 +68,9 @@ header h1{
     padding-top: 150px;
     background-image: url(img/noun_Bicycle_3134821.png);
     background-size: 90%;
+    font-size: 25px;
+    text-align:center;
+    padding-top: 150px;
     background-position: top;
     background-repeat: no-repeat;
     color: crimson;
@@ -84,7 +100,7 @@ header h1{
     color: seagreen;
 }
 
-.four:active,#card-flip:active{
+.four:active{
     font-family: 'Nerko One';
     font-size: 25px;
     text-align:center;
